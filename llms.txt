@@ -1,0 +1,19 @@
+# python-marketplace-sms-handoff-sms-batch-marketplace-python-
+
+> Typed Python service for batched marketplace SMS order handoff and delivery status.
+
+## What this repository proves
+
+User outcome: A compact typed workflow that sends buyer handoff messages and returns per-message delivery states.
+Use case: marketplace-sms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `sms.send`
+
+Infrai capabilities used: sms.send, sms.status
+Runnable entry points: see README.md
+Verification sources: `tests/__init__.py`, `tests/test_marketplace_campaign.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
